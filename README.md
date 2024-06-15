@@ -26,4 +26,6 @@ The project is broken down in five different jupyter notebooks
 
 They are located in Python_Code/Notebooks.
 
-Every bigger code sample is in a python file, which will allow people to use the code for themselves. They are located in Python_Code/Python_Files.
+Each major code example is in a Python file that allows people to use the code themselves. These are located in Python_Code/Python_Files.
+
+NOTE: All YouTube comments have been anonymised so that the comments cannot be traced back to any user.
