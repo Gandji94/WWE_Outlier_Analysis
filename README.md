@@ -8,8 +8,8 @@ These comments were cleaned, aggregated, added a sentiment algorithm (Vader libr
 
 Link: http://www.profightdb.com/
 
-This data was used to perform an outlier analysis, where we analysed the combination of positive comments and matches lost by the wrestler. This decision was made because we could not find enough wrestlers with more negative than positive comments.
-The decision to analyse wrestlers' losses and positive comments was made to see if the wrestlers were being booked well or badly. For example, if a wrestler has a lot of positive comments, he should not have a lot of losses. But we also expect to find positive outliers, wrestlers with the most positive comments and few losses.
+This data was used to perform an outlier analysis, where we analysed the combination of positive/negative comments and matches lost/won by the wrestler.
+The decision to analyse wrestlers' losses/wins and positive/negative comments was made to see if the wrestlers were being booked well or badly. For example, if a wrestler has a lot of positive comments, he should not have a lot of losses. But we also expect to find positive outliers, wrestlers with the most positive comments and few losses.
 
 The following algorithms were used to find the outliers:
 
