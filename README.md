@@ -8,8 +8,8 @@ These comments were cleaned, aggregated, added a sentiment algorithm (Vader libr
 
 Link: http://www.profightdb.com/
 
-This data was used to perform an outlier analysis, where we analysed the combination of positive/negative comments and matches lost/won by the wrestler.
-The decision to analyse wrestlers' losses/wins and positive/negative comments was made to see if the wrestlers were being booked well or badly. For example, if a wrestler has a lot of positive comments, he should not have a lot of losses. But we also expect to find positive outliers, wrestlers with the most positive comments and few losses.
+This data was used to perform an outlier analysis, where we analysed the combination of positive/negative comments and matches lost/won by the wrestlers.
+The decision to analyse wrestlers' losses/wins and positive/negative comments was made to see if the wrestlers were being booked well or badly. For example, if a wrestler has a lot of positive comments, he should not have a lot of losses. But we also expect to find positive/negative outliers, wrestlers with the most positive comments and few losses or most negative comments and a lot of wins.
 
 The following algorithms were used to find the outliers:
 
@@ -26,6 +26,6 @@ The project is broken down in five different jupyter notebooks
 
 They are located in Python_Code/Notebooks.
 
-Each major code example is in a Python file that allows people to use the code themselves. These are located in Python_Code/Python_Files.
+Each major code block is in a Python file that allows people to use the code themselves. These are located in Python_Code/Python_Files.
 
 NOTE: All YouTube comments have been anonymised so that the comments cannot be traced back to any user.
